@@ -22,6 +22,8 @@ metodos = ['CPU Seq', 'NumPy (Ref)', 'CUDA Naive', 'CUDA Tiled']
 
 A IA foi tabmem utilizada para fazer o resumo, a revisão e melhoria do relatorio, tambem adicionando as formatações corretas quando necessario e tambem gerou o código da tabela para o latex a tabela.
 Prompt para o resumo: Analise as seções e subsessões deste relatorio do overleaf, sob o templete "SBC" e gere um resumo(Foi passado o relatorio para a IA); inglês e português.
+Prompt da tabela: Gere uma tabela chamada "Análise de Desempenho GEMM - Matrizes Reais 512x512". Os dados são: CPU sequencial: 0.292565s, NumPy(Ref): 0.008236s, CUDA Naive (Memória Global): 0.000865s, CUDA Tiled (Shared Memory): 0.000667s. E as marcações do Tempo de Execução em Segundos(Escala Logaritma): 10^-3, 10^-2, 10^-1.
+Prompt da revisão: Análise esse relatorio do overleaf e revise as as seções e subseções, de acordo com as normas SBC e adicione algumas formatações onde necessario.
 
 Utilizada a IA para colocar as referencias de forma correta no overleaf.
 
