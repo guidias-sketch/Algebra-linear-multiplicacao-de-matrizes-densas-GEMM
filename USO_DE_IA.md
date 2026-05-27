@@ -2,6 +2,7 @@ GOOGLE GEMINI AI
 Utilizado um prompt para criar um roteiro para a apresentação:
 Prompit: Crie um roteiro para uma apresentação sobre multiplicação de matrizes densas (GEMM) utilizando CPU Sequencial, CUDA Naive e CUDA com Tiling em shared memory. Compare desempenho, tempo de execução e eficiência computacional entre as implementações, incluindo referência com NumPy/cuBLAS. Destaque a importância do paralelismo, da hierarquia de memória da GPU e do uso de tiling para otimização.
 
+Utilizada a IA para fazer correções e melhorias quando necessario nos codigos.
 O codigo para fazer o grafico baseado nos resultados das analises foi gerado pela IA:
 Prompit: Faça um código para um grafico para apresentar os resultados desses códigos (Foi passado os códigos para a IA saber como esta funcionando e tambem foi passada a linguagem)
 metodos = ['CPU Seq', 'NumPy (Ref)', 'CUDA Naive', 'CUDA Tiled']
