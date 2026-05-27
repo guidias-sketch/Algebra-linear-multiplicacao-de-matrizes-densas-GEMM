@@ -1,4 +1,4 @@
-GOOGLE GEMINI AI
+O modelo de IA (GOOGLE GEMINI AI) foi a IA que utilizamos para nos auxiliar.
 Utilizado um prompt para criar um roteiro para a apresentação:
 Prompit: Crie um roteiro para uma apresentação sobre multiplicação de matrizes densas (GEMM) utilizando CPU Sequencial, CUDA Naive e CUDA com Tiling em shared memory. Compare desempenho, tempo de execução e eficiência computacional entre as implementações, incluindo referência com NumPy/cuBLAS. Destaque a importância do paralelismo, da hierarquia de memória da GPU e do uso de tiling para otimização.
 
